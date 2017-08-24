@@ -10,7 +10,7 @@ env:
     - COMPILER=g++-6
 addons:
     apt:
-        source:
+        sources:
             - ubuntu-toolchain-r-test
         packages:
             - g++-6
